@@ -1,0 +1,23 @@
+{
+	"name": "ZJU Auto Toolbox",
+	"version": "0.1.0",
+	"description": "Toolbox for ZJU automatic Auth login and nCOV health report.",
+	"permissions": ["storage", "webNavigation", "tabs", "activeTab", "declarativeContent", "https://zjuam.zju.edu.cn/", "https://healthreport.zju.edu.cn/"],
+	"background": {
+		"scripts": ["background.js"],
+		"persistent": false
+	},
+	"content_scripts": [{
+        "js": ["content_scripts.js"],
+        "matches": ["https://zjuam.zju.edu.cn/*","https://healthreport.zju.edu.cn/*"],
+		"run_at": "document_idle"
+    }],
+	"web_accessible_resources": ["injected/*"],
+	"browser_action": {
+		"default_icon": {
+		"32": "src/icon.png",
+		"128": "src/icon.png"
+		}
+	},
+	"manifest_version": 2
+}
