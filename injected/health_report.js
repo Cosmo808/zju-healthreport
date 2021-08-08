@@ -12,14 +12,14 @@
             vm.info.sfymqjczrj = 0;
             vm.info.sfqrxxss = 1;
             vm.save();
-            // alert('打卡成功');
-            // window.dispatchEvent(new CustomEvent("injectedMsg", {detail: '打卡成功'}));
+            alert('打卡成功');
+            window.dispatchEvent(new CustomEvent("injectedMsg", {detail: '打卡成功'}));
             setTimeout( function(){
                 window.close();
             }, 1000);
         }else{
-            // alert('已经打过卡了');
-            // window.dispatchEvent(new CustomEvent("injectedMsg", {detail: '已经打过卡了'}));
+            alert('已经打过卡了');
+            window.dispatchEvent(new CustomEvent("injectedMsg", {detail: '已经打过卡了'}));
             window.close();
         }
     }, false);
