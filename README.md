@@ -1,6 +1,6 @@
-# ZJU Auto Health Report 0.0.1
+# ZJU Auto Health Report 0.0.2
 
-## 浙江大学自动健康打卡 0.0.1
+## 浙江大学自动健康打卡 0.0.2
 
 ---
 
