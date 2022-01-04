@@ -6,7 +6,7 @@
 
 ## Installation
 
-* 点击右上方绿色`Code`$\rightarrow$`Download ZIP`
+* 点击右上方绿色`Code` $\rightarrow$ `Download ZIP`
 * 或者`git clone https://github.com/Cosmo808/zju-healthreport.git`
 
 ## Preparations
