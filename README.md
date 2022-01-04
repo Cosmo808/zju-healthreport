@@ -4,6 +4,11 @@
 
 ---
 
+## Installation
+
+* 点击右上方绿色`Code`$\rightarrow$`Download ZIP`
+* 或者`git clone https://github.com/Cosmo808/zju-healthreport.git`
+
 ## Preparations
 
 1. 用`记事本`打开目录下的`injected/zjuam.js`文件，修改第1行和第2行的内容，在指定区域输入你的浙大统一认证账号密码（__注意！ 账号密码两侧的双引号要保留__），例如`$("#username").val("3190101234");\ $("#password").val("wuzhaohuishiwodie");\`，可以帮助你自动登录浙江大学统一认证；其次修改`injected/health_report.js`第4行和第5行，完善打卡信息。
@@ -21,4 +26,5 @@
 ## BUG Repair and Improvement
 
 1. 2021-8-6 修复了自动打卡之后需要点击提交按钮的BUG
-2. 2021-8-7 优化了代码结构。
+2. 2021-8-7 优化了代码结构
+3. 2022-1-4 增添安装教学
