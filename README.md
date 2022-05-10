@@ -7,13 +7,13 @@
 ## Installation
 
 * 点击右上方绿色`Code`>`Download ZIP`
-* 或者`git clone https://github.com/Cosmo808/zju-healthreport.git`
+* git玩家可`git clone https://github.com/Cosmo808/zju-healthreport.git`
 
 ## Preparations
 
 1. 用`记事本`打开目录下的`injected/zjuam.js`文件，修改第1行和第2行的内容，在指定区域输入你的浙大统一认证账号密码（__注意！ 账号密码两侧的双引号要保留__），例如`$("#username").val("3190101234");\ $("#password").val("wuzhaohuishiwodie");\`，可以帮助你自动登录浙江大学统一认证；其次修改`injected/health_report.js`第4行和第5行，完善打卡信息。
 2. 把整个文件夹放在一个你想存放的位置，没必要就不要移动文件，如果移动了文件位置需要在浏览器上重新添加插件。
-3. 该脚本是Chrome浏览器插件，必须在Chrome浏览器上安装使用。
+3. 该脚本是Chrome浏览器插件，必须在含有Chrome内核的浏览器上安装使用。
 4. 在Chrome浏览器中打开`chrome://extensions/`网页，在右上角启动开发者模式，通过左上角加载已解压的扩展程序选择`zju-healthreport`文件夹，插件就添加成功了。
 
 ## Usage
